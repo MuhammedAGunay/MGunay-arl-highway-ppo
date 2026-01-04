@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# venv
+.venv/
+
+# OS
+.DS_Store
+
+# Logs / outputs
+runs/
+logs/
+videos/
+checkpoints/
+*.mp4
+*.gif
+
+# IDE
+.idea/
