@@ -5,3 +5,4 @@ torch
 numpy
 matplotlib
 moviepy
+pandas

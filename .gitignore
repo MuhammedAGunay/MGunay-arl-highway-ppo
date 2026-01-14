@@ -13,6 +13,7 @@ __pycache__/
 # Logs / outputs
 runs/
 logs/
+models/
 videos/
 checkpoints/
 *.mp4
