@@ -1,23 +1,43 @@
+# -----------------------
 # Python
+# -----------------------
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*.so
 
-# venv
+# -----------------------
+# Environments
+# -----------------------
 .venv/
+venv/
+ENV/
+.env
 
+# -----------------------
 # OS
+# -----------------------
 .DS_Store
+Thumbs.db
 
-# Logs / outputs
+# -----------------------
+# IDE
+# -----------------------
+.idea/
+.vscode/
+
+# -----------------------
+# Outputs / Artifacts
+# -----------------------
 runs/
 logs/
+checkpoints/
+
+data/
 models/
 videos/
-checkpoints/
+
 *.mp4
 *.gif
 
-# IDE
-.idea/
+!assets/
+!assets/evolution.gif
